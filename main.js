@@ -50,7 +50,7 @@ io.on('connection', (sock) => {
 
 server.listen(+port, '0.0.0.0', (err) => {
   if (err) {
-    console.lo(err.stack);
+    console.log(err.stack);
     return;
   }
 
